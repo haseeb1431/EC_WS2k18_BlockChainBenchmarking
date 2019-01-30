@@ -1,0 +1,53 @@
+=============== Jan 28, 2019 (UTC) ===============
+11:28:54.608333 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:28:54.612767 db@open opening
+11:28:54.613168 version@stat F·[] S·0B[] Sc·[]
+11:28:54.623222 db@janitor F·2 G·0
+11:28:54.623251 db@open done T·10.467191ms
+=============== Jan 28, 2019 (UTC) ===============
+11:31:24.702598 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:31:24.702722 version@stat F·[] S·0B[] Sc·[]
+11:31:24.702731 db@open opening
+11:31:24.702768 journal@recovery F·1
+11:31:24.705090 journal@recovery recovering @1
+11:31:24.707882 memdb@flush created L0@2 N·14 S·999B "\x124\t..S\xdb\xed,v5":"\xbe\x85\x85..4\x96\x02,v4"
+11:31:24.710144 version@stat F·[1] S·999B[999B] Sc·[0.25]
+11:31:24.730690 db@janitor F·3 G·0
+11:31:24.730720 db@open done T·27.979185ms
+15:14:28.494263 db@close closing
+15:14:28.494352 db@close done T·86.63µs
+=============== Jan 28, 2019 (UTC) ===============
+15:14:42.908290 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:14:42.908456 version@stat F·[1] S·999B[999B] Sc·[0.25]
+15:14:42.908468 db@open opening
+15:14:42.908519 journal@recovery F·1
+15:14:42.911021 journal@recovery recovering @3
+15:14:43.961120 memdb@flush created L0@5 N·201551 S·36MiB "\x03\x18\xae..X_\xfa,v201549":"\xff|G..}\xc3\x1b,v201538"
+15:14:43.965127 version@stat F·[2] S·36MiB[36MiB] Sc·[0.50]
+15:14:43.996327 db@janitor F·4 G·0
+15:14:43.996365 db@open done T·1.087884903s
+15:28:01.729089 table@compaction L0·2 -> L1·0 S·36MiB Q·236662
+15:28:01.753507 table@build created L1@8 N·3437 S·2MiB "\x03\x18\xae..X_\xfa,v201549":"b\x00\x00..2\xa3\x1c,v27541"
+15:28:01.774110 table@build created L1@9 N·291 S·2MiB "b\x00\x00..\xe4\xf1\u007f,v27779":"b\x00\x00..-\xf0\xa5,v57281"
+15:28:01.794452 table@build created L1@10 N·586 S·2MiB "b\x00\x00.._\xffc,v57586":"b\x00\x00..\x918\xe8,v89155"
+15:28:01.817763 table@build created L1@11 N·708 S·2MiB "b\x00\x00..\xf0\xb6\xcc,v89460":"b\x00\x00..\xf3\xec\x88,v122830"
+15:28:01.837590 table@build created L1@12 N·818 S·2MiB "b\x00\x00..\xab\x1e\xd3,v123135":"b\x00\x00..bT;,v156954"
+15:28:01.857418 table@build created L1@13 N·370 S·2MiB "b\x00\x00..t\f\x90,v157259":"b\x00\x00..j\xab\x80,v188048"
+15:28:01.888143 table@build created L1@14 N·14659 S·2MiB "b\x00\x00..`\xa4\x99,v188353":"l\a\xef..\x8b5G,v167715"
+15:28:01.920701 table@build created L1@15 N·26540 S·2MiB "l\a\xef..\a\xf5\x05,v37651":"l0D..M\x0f,,v71875"
+15:28:01.953241 table@build created L1@16 N·26544 S·2MiB "l0F..P\xb5\xe7,v160827":"lX\xae..\x89\xff\xd0,v57441"
+15:28:01.986509 table@build created L1@17 N·26541 S·2MiB "lX\xae../\xe4{,v45843":"l\x80\x89..\x12\"\x02,v196772"
+15:28:02.019399 table@build created L1@18 N·26492 S·2MiB "l\x80\x89..\x91\xb7\xc9,v139652":"l\xa8\x99..f\xfe{,v113202"
+15:28:02.052851 table@build created L1@19 N·26484 S·2MiB "l\xa8\x99..\x03\x84j,v104908":"lь..\xe8T@,v137556"
+15:28:02.085578 table@build created L1@20 N·26558 S·2MiB "lь..֢\x84,v14849":"l\xf9\xbb..\x11H\xce,v135615"
+15:28:02.113111 table@build created L1@21 N·4395 S·2MiB "l\xf9\xbc..s+7,v170629":"r\x00\x00.._\xbbd,v35515"
+15:28:02.137769 table@build created L1@22 N·812 S·2MiB "r\x00\x00..\"\xb4\xd7,v35760":"r\x00\x00..\xfb\xb8\b,v80479"
+15:28:02.161645 table@build created L1@23 N·754 S·2MiB "r\x00\x00..\a\xf3Q,v80768":"r\x00\x00..\x04\xbb!,v126807"
+15:28:02.185760 table@build created L1@24 N·1092 S·2MiB "r\x00\x00..\xf3ܯ,v127112":"r\x00\x00..(\x87\u007f,v175768"
+15:28:02.202059 table@build created L1@25 N·205 S·1MiB "r\x00\x00..\xa0\x89;,v176073":"\xff|G..}\xc3\x1b,v201538"
+15:28:02.202163 version@stat F·[0 18] S·35MiB[0B 35MiB] Sc·[0.00 0.36]
+15:28:02.212532 table@compaction committed F+16 S-542KiB Ke·0 D·14279 T·483.370965ms
+15:28:02.217841 table@remove removed @5
+15:28:02.217892 table@remove removed @2
+15:50:10.847129 db@close closing
+15:50:10.847732 db@close done T·601.528µs
